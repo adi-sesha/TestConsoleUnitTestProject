@@ -13,12 +13,18 @@ namespace TestConsole
             MyTest myTest = new MyTest();
             Console.WriteLine("Welcome" + "\n");
             Console.WriteLine(myTest.getHello());
+            Console.WriteLine(myTest.getSampleOutput());
             Console.ReadLine();
         }
 
         public string getHello()
         {
             return "Hello";
+        }
+
+        public string getSampleOutput()
+        {
+            return "Sample Output";
         }
     }
 }
